@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (loadMoreBtn && projectList) {
     loadMoreBtn.addEventListener('click', function () {
-      if (loadMoreBtn.textContent === "See More I.S" ) {
+      if (loadMoreBtn.textContent === "Ver mais" ) {
         const endIndex = loadedISIndex + numberToLoad;
         const IsSlice = additionalIS.slice(loadedISIndex, endIndex);
 
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         loadedISIndex = endIndex;
-        loadMoreBtn.textContent = "See Less I.S";
+        loadMoreBtn.textContent = "Ver menos";
       } else {
         const idsToRemove = Math.min(loadedISIndex, numberToLoad);
         for (let i = 0; i < idsToRemove; i++) {
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         loadedISIndex -= idsToRemove;
-        loadMoreBtn.textContent = "See More I.S";
+        loadMoreBtn.textContent = "Ver mais";
 
         if (loadedISIndex === 0) {
           loadMoreBtn.style.display = 'block';
