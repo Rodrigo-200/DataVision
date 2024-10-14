@@ -1,0 +1,31 @@
+{
+    "en": {
+      "title": "Explore the World of Programming IDEs",
+      "btnGetInTouch": "Get in touch",
+      "aboutIdes": "About IDEs",
+      "ideFeatures": "IDE Features",
+      "popularIdes": "Popular IDEs",
+      "contact": "Contact",
+      "subtitleaboutIdes": "About IDES"
+    },
+    "pt": {
+      "title": "Explore o Mundo dos IDEs de Programação",
+      "btnGetInTouch": "Entre em contato",
+      "aboutIdes": "Sobre IDEs",
+      "ideFeatures": "Recursos do IDE",
+      "popularIdes": "IDEs Populares",
+      "contact": "Contato",
+      "subtitleaboutIdes": "Sobre IDES"
+      
+    },
+    "es": {
+      "title": "Explora el Mundo de los IDEs de Programación",
+      "btnGetInTouch": "Ponte en contacto",
+      "aboutIdes": "Acerca de los IDEs",
+      "ideFeatures": "Características del IDE",
+      "popularIdes": "IDEs Populares",
+      "contact": "Contacto",
+      "subtitleaboutIdes": "Sobre IDES"
+    }
+  }
+  
